@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_Z5a1wByyEe2EUeCzYK37WA" entityName="New System">
   <assemblyContexts__ComposedStructure id="_PXqRwByzEe2EUeCzYK37WA" entityName="Assembly_BasicComponent1">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="minimalProject.repository#_OHlmcByyEe2EUeCzYK37WA"/>
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corex.repository#_OHlmcByyEe2EUeCzYK37WA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_RJCv0ByzEe2EUeCzYK37WA" entityName="Assembly_BasicComponent2">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="minimalProject.repository#_OdXCIByyEe2EUeCzYK37WA"/>
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corex.repository#_OdXCIByyEe2EUeCzYK37WA"/>
   </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4aUW0ByzEe2EUeCzYK37WA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_RJCv0ByzEe2EUeCzYK37WA" providingAssemblyContext_AssemblyConnector="_PXqRwByzEe2EUeCzYK37WA">
-    <providedRole_AssemblyConnector href="minimalProject.repository#_VR4p8ByyEe2EUeCzYK37WA"/>
-    <requiredRole_AssemblyConnector href="minimalProject.repository#_WOgqQByyEe2EUeCzYK37WA"/>
+    <providedRole_AssemblyConnector href="corex.repository#_VR4p8ByyEe2EUeCzYK37WA"/>
+    <requiredRole_AssemblyConnector href="corex.repository#_WOgqQByyEe2EUeCzYK37WA"/>
   </connectors__ComposedStructure>
 </system:System>

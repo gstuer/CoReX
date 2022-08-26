@@ -4,10 +4,10 @@
     <semanticResources>pathmap://PCM_MODELS/Palladio.resourcetype</semanticResources>
     <semanticResources>pathmap://PCM_MODELS/PrimitiveTypes.repository</semanticResources>
     <semanticResources>pathmap://PCM_MODELS/FailureTypes.repository</semanticResources>
-    <semanticResources>minimalProject.allocation</semanticResources>
-    <semanticResources>minimalProject.repository</semanticResources>
-    <semanticResources>minimalProject.resourceenvironment</semanticResources>
-    <semanticResources>minimalProject.system</semanticResources>
+    <semanticResources>corex.allocation</semanticResources>
+    <semanticResources>corex.repository</semanticResources>
+    <semanticResources>corex.resourceenvironment</semanticResources>
+    <semanticResources>corex.system</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_MEVVQByyEe2EUeCzYK37WA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MHORMByyEe2EUeCzYK37WA" name="new Repository Diagram" repPath="#_MFDuAByyEe2EUeCzYK37WA" changeId="e2a25d11-28ff-4054-8a22-12f995d53e5c">
