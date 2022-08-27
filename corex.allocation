@@ -10,4 +10,20 @@
     <resourceContainer_AllocationContext href="corex.resourceenvironment#_BRJ0oBy0Ee2EUeCzYK37WA"/>
     <assemblyContext_AllocationContext href="corex.system#_PXqRwByzEe2EUeCzYK37WA"/>
   </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_xw9boCYTEe2EtJCo0Iykaw" entityName="Allocation_Assembly_BasicComponent3">
+    <resourceContainer_AllocationContext href="corex.resourceenvironment#_vx0OYCYTEe2EtJCo0Iykaw"/>
+    <assemblyContext_AllocationContext href="corex.system#_tjFF8CYTEe2EtJCo0Iykaw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_OCjB8CYUEe2EtJCo0Iykaw" entityName="Allocation_Assembly_BasicComponent4">
+    <resourceContainer_AllocationContext href="corex.resourceenvironment#_0-ThYCYTEe2EtJCo0Iykaw"/>
+    <assemblyContext_AllocationContext href="corex.system#_BcNzkCYUEe2EtJCo0Iykaw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_OvJCMCYUEe2EtJCo0Iykaw" entityName="Allocation_Assembly_BasicComponent5">
+    <resourceContainer_AllocationContext href="corex.resourceenvironment#_1OpDcCYTEe2EtJCo0Iykaw"/>
+    <assemblyContext_AllocationContext href="corex.system#_CnhJECYUEe2EtJCo0Iykaw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_0-IFwCYUEe2EtJCo0Iykaw" entityName="Allocation_Assembly_SefflessProvider">
+    <resourceContainer_AllocationContext href="corex.resourceenvironment#_yFz00CYUEe2EtJCo0Iykaw"/>
+    <assemblyContext_AllocationContext href="corex.system#_vqyj4CYUEe2EtJCo0Iykaw"/>
+  </allocationContexts_Allocation>
 </allocation:Allocation>

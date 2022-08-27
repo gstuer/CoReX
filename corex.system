@@ -6,8 +6,27 @@
   <assemblyContexts__ComposedStructure id="_RJCv0ByzEe2EUeCzYK37WA" entityName="Assembly_BasicComponent2">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corex.repository#_OdXCIByyEe2EUeCzYK37WA"/>
   </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_tjFF8CYTEe2EtJCo0Iykaw" entityName="Assembly_BasicComponent3">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corex.repository#_MzjUsCYTEe2EtJCo0Iykaw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_BcNzkCYUEe2EtJCo0Iykaw" entityName="Assembly_BasicComponent4">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corex.repository#_4sax4CYTEe2EtJCo0Iykaw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CnhJECYUEe2EtJCo0Iykaw" entityName="Assembly_BasicComponent5">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corex.repository#_53v8kCYTEe2EtJCo0Iykaw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_UGWXcCYUEe2EtJCo0Iykaw" entityName="Assembly_UnallocatedComponent">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corex.repository#_QvESkCYUEe2EtJCo0Iykaw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_vqyj4CYUEe2EtJCo0Iykaw" entityName="Assembly_SefflessProvider">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corex.repository#_dN2HcCYUEe2EtJCo0Iykaw"/>
+  </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4aUW0ByzEe2EUeCzYK37WA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_RJCv0ByzEe2EUeCzYK37WA" providingAssemblyContext_AssemblyConnector="_PXqRwByzEe2EUeCzYK37WA">
     <providedRole_AssemblyConnector href="corex.repository#_VR4p8ByyEe2EUeCzYK37WA"/>
     <requiredRole_AssemblyConnector href="corex.repository#_WOgqQByyEe2EUeCzYK37WA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LeXN8CYUEe2EtJCo0Iykaw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_CnhJECYUEe2EtJCo0Iykaw" providingAssemblyContext_AssemblyConnector="_BcNzkCYUEe2EtJCo0Iykaw">
+    <providedRole_AssemblyConnector href="corex.repository#_-xKikCYTEe2EtJCo0Iykaw"/>
+    <requiredRole_AssemblyConnector href="corex.repository#_9yTGkCYTEe2EtJCo0Iykaw"/>
   </connectors__ComposedStructure>
 </system:System>

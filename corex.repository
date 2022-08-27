@@ -22,10 +22,43 @@
   <components__Repository xsi:type="repository:BasicComponent" id="_OdXCIByyEe2EUeCzYK37WA" entityName="BasicComponent2">
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_WOgqQByyEe2EUeCzYK37WA" entityName="BasicComponent2.Interface1.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_Qn_GoByyEe2EUeCzYK37WA"/>
   </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_MzjUsCYTEe2EtJCo0Iykaw" entityName="BasicComponent3">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_PV4ukCYTEe2EtJCo0Iykaw" entityName="BasicComponent3.Interface2.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_K6tjwCYTEe2EtJCo0Iykaw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_4sax4CYTEe2EtJCo0Iykaw" entityName="BasicComponent4">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-xKikCYTEe2EtJCo0Iykaw" entityName="BasicComponent4.Interface4.OperationProvidedRole1" providedInterface__OperationProvidedRole="_7O2SYCYTEe2EtJCo0Iykaw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_-x0C0CYTEe2EtJCo0Iykaw" describedService__SEFF="_8UK7sCYTEe2EtJCo0Iykaw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_-x0C0SYTEe2EtJCo0Iykaw" successor_AbstractAction="_-x0C0iYTEe2EtJCo0Iykaw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_-x0C0iYTEe2EtJCo0Iykaw" predecessor_AbstractAction="_-x0C0SYTEe2EtJCo0Iykaw"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_53v8kCYTEe2EtJCo0Iykaw" entityName="BasicComponent5">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9yTGkCYTEe2EtJCo0Iykaw" entityName="BasicComponent5.Interface4.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_7O2SYCYTEe2EtJCo0Iykaw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_QvESkCYUEe2EtJCo0Iykaw" entityName="UnallocatedComponent"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_dN2HcCYUEe2EtJCo0Iykaw" entityName="SefflessProvider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_koNAMCYUEe2EtJCo0Iykaw" entityName="SefflessProvider.Interface5.OperationProvidedRole1" providedInterface__OperationProvidedRole="_igIgcCYUEe2EtJCo0Iykaw"/>
+  </components__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_Qn_GoByyEe2EUeCzYK37WA" entityName="Interface1">
     <signatures__OperationInterface id="_SfL40ByyEe2EUeCzYK37WA" entityName="method1"/>
     <signatures__OperationInterface id="_Srt48ByyEe2EUeCzYK37WA" entityName="method2"/>
     <signatures__OperationInterface id="_SxdUkByyEe2EUeCzYK37WA" entityName="method3"/>
     <signatures__OperationInterface id="_S56tAByyEe2EUeCzYK37WA" entityName="method4"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_K6tjwCYTEe2EtJCo0Iykaw" entityName="OnlyRequiredInterface">
+    <signatures__OperationInterface id="_L3mp0CYTEe2EtJCo0Iykaw" entityName="method1"/>
+    <signatures__OperationInterface id="_MK2V8CYTEe2EtJCo0Iykaw" entityName="method2"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_SfQ6UCYTEe2EtJCo0Iykaw" entityName="OrphanInterface">
+    <signatures__OperationInterface id="_TFcJgCYTEe2EtJCo0Iykaw" entityName="method1"/>
+    <signatures__OperationInterface id="_TTGLACYTEe2EtJCo0Iykaw" entityName="method2"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7O2SYCYTEe2EtJCo0Iykaw" entityName="Interface4">
+    <signatures__OperationInterface id="_8UK7sCYTEe2EtJCo0Iykaw" entityName="method1"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_igIgcCYUEe2EtJCo0Iykaw" entityName="Interface5">
+    <signatures__OperationInterface id="_i7NS4CYUEe2EtJCo0Iykaw" entityName="method1"/>
+    <signatures__OperationInterface id="_jTpBACYUEe2EtJCo0Iykaw" entityName="method2"/>
+    <signatures__OperationInterface id="_jl-HICYUEe2EtJCo0Iykaw" entityName="method3"/>
   </interfaces__Repository>
 </repository:Repository>
