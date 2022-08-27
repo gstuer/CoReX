@@ -60,7 +60,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']"/>
         <target xmi:type="system:System" href="system.system#_Z5a1wByyEe2EUeCzYK37WA"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_sHqQ0CYTEe2EtJCo0Iykaw" name="assemblyDiagram" repPath="#_sHoboCYTEe2EtJCo0Iykaw" changeId="ba0dce15-2ab7-42f1-b23a-7950729957f1">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_sHqQ0CYTEe2EtJCo0Iykaw" name="assemblyDiagram" repPath="#_sHoboCYTEe2EtJCo0Iykaw" changeId="a8fa036c-2f66-4e80-891d-515f804c1637">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']"/>
         <target xmi:type="system:System" href="corex.system#_Z5a1wByyEe2EUeCzYK37WA"/>
       </ownedRepresentationDescriptors>
@@ -82,7 +82,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']"/>
         <target xmi:type="allocation:Allocation" href="allocation.allocation#_H7C5wBy0Ee2EUeCzYK37WA"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oouEwCYTEe2EtJCo0Iykaw" name="allocationDiagram" repPath="#_ootdsCYTEe2EtJCo0Iykaw" changeId="1708632c-e211-4b65-825c-408a92bb77e0">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oouEwCYTEe2EtJCo0Iykaw" name="allocationDiagram" repPath="#_ootdsCYTEe2EtJCo0Iykaw" changeId="2d59c0e4-cd4b-493e-b1e2-b34d2f6109c7">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']"/>
         <target xmi:type="allocation:Allocation" href="corex.allocation#_H7C5wBy0Ee2EUeCzYK37WA"/>
       </ownedRepresentationDescriptors>
@@ -2676,7 +2676,7 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0_DvViYTEe2EtJCo0Iykaw" name="&lt;&lt;ResourceContainer>>&#xA;ResourceContainer4" tooltipText="ResourceContainer from the specified ResourceEnviroment ">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0_DvViYTEe2EtJCo0Iykaw" name="&lt;&lt;ResourceContainer>>&#xA;MissingLinkProvider" tooltipText="ResourceContainer from the specified ResourceEnviroment ">
       <target xmi:type="resourceenvironment:ResourceContainer" href="corex.resourceenvironment#_0-ThYCYTEe2EtJCo0Iykaw"/>
       <semanticElements xmi:type="resourceenvironment:ResourceContainer" href="corex.resourceenvironment#_0-ThYCYTEe2EtJCo0Iykaw"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -2698,7 +2698,7 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_1PVnCCYTEe2EtJCo0Iykaw" name="&lt;&lt;ResourceContainer>>&#xA;ResourceContainer5" tooltipText="ResourceContainer from the specified ResourceEnviroment ">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_1PVnCCYTEe2EtJCo0Iykaw" name="&lt;&lt;ResourceContainer>>&#xA;MissingLinkConsumer" tooltipText="ResourceContainer from the specified ResourceEnviroment ">
       <target xmi:type="resourceenvironment:ResourceContainer" href="corex.resourceenvironment#_1OpDcCYTEe2EtJCo0Iykaw"/>
       <semanticElements xmi:type="resourceenvironment:ResourceContainer" href="corex.resourceenvironment#_1OpDcCYTEe2EtJCo0Iykaw"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -2885,7 +2885,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wHyB6SYUEe2EtJCo0Iykaw" x="-22" width="30" height="30"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_wHyB4SYUEe2EtJCo0Iykaw" fontName="Cantarell" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wHyB4iYUEe2EtJCo0Iykaw" x="139" y="462"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wHyB4iYUEe2EtJCo0Iykaw" x="55" y="474"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_sNEVQiYTEe2EtJCo0Iykaw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_sNEVQyYTEe2EtJCo0Iykaw"/>
@@ -3046,6 +3046,9 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@borderedNodeMappings[name='OperationProvidedRole%20Node']"/>
         </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wHef4CYUEe2EtJCo0Iykaw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@style"/>
         </ownedStyle>

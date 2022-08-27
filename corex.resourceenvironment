@@ -9,7 +9,7 @@
   <resourceContainer_ResourceEnvironment id="_BRJ0oBy0Ee2EUeCzYK37WA" entityName="ResourceContainer1"/>
   <resourceContainer_ResourceEnvironment id="_CN7l8By0Ee2EUeCzYK37WA" entityName="ResourceContainer2"/>
   <resourceContainer_ResourceEnvironment id="_vx0OYCYTEe2EtJCo0Iykaw" entityName="ResourceContainer3"/>
-  <resourceContainer_ResourceEnvironment id="_0-ThYCYTEe2EtJCo0Iykaw" entityName="ResourceContainer4"/>
-  <resourceContainer_ResourceEnvironment id="_1OpDcCYTEe2EtJCo0Iykaw" entityName="ResourceContainer5"/>
+  <resourceContainer_ResourceEnvironment id="_0-ThYCYTEe2EtJCo0Iykaw" entityName="MissingLinkProvider"/>
+  <resourceContainer_ResourceEnvironment id="_1OpDcCYTEe2EtJCo0Iykaw" entityName="MissingLinkConsumer"/>
   <resourceContainer_ResourceEnvironment id="_yFz00CYUEe2EtJCo0Iykaw" entityName="SefflessProviderServer"/>
 </resourceenvironment:ResourceEnvironment>
